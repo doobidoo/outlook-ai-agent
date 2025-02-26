@@ -1,0 +1,16 @@
+{
+  "meeting_response_template": "Thanks for the invitation. I'll check my calendar and get back to you soon.",
+  "priority_contacts": [
+    "boss@company.com", 
+    "client@bigclient.com",
+    "important@example.com"
+  ],
+  "auto_reply_enabled": true,
+  "signature": "\n\nBest regards,\nYour Name\nYour Title\nYour Company",
+  "working_hours": {
+    "start": "09:00", 
+    "end": "17:00"
+  },
+  "vacation_mode": false,
+  "time_zone": "Europe/Berlin"
+}

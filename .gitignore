@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+outlook_ai_agent.log
+
+# User-specific files
+user_preferences.json
+
+# Statistics and data files
+email_stats.csv
+
+# Local configuration that might contain sensitive data
+# Uncomment if you want to exclude config.ini from Git
+# config.ini
+
+# Windows specific
+Thumbs.db
+desktop.ini

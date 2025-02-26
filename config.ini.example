@@ -1,0 +1,32 @@
+[AI]
+model = facebook/bart-large-cnn
+use_llama = False
+llama_path = 
+max_summary_length = 100
+min_summary_length = 30
+use_gpu = True
+lazy_loading = True
+# Set to True to use external APIs instead of local models
+use_external_api = False
+api_provider = openai
+api_key = 
+summarization_model = gpt-3.5-turbo
+
+[OUTLOOK]
+process_unread_only = True
+max_emails_per_run = 50
+body_max_length = 2000
+folders = Urgent,Processed,Meetings,Newsletters,Questions,Reports
+archive_processed = True
+scan_all_folders = True
+enable_event_handler = True
+skip_folders = Deleted Items,Junk Email,Outbox,Sent Items,Calendar,Tasks
+customer_priority_boost = 2
+team_priority_boost = 3
+# Time in seconds between periodic scans
+scan_interval = 300
+
+[ANALYTICS]
+track_statistics = True
+stats_file = email_stats.csv
+max_history_days = 30

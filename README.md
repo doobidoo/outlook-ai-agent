@@ -29,7 +29,7 @@ A sophisticated AI-powered assistant that automatically processes, analyzes, and
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/doobidoo/outlook-ai-agent.git
+git clone https://github.com/yourusername/outlook-ai-agent.git
 cd outlook-ai-agent
 ```
 
